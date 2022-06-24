@@ -7,6 +7,7 @@ User = get_user_model()
 
 
 class RegistrationView(APIView):
+    """ class for registration """
     def post(self, request):
         print(request)
         print(request.data)
